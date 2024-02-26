@@ -188,3 +188,21 @@ function drawChristmasTree(n: number): void {
 }
 
 drawChristmasTree(5);
+
+console.log("\n")
+console.log("!--- Funktionen ---!")
+
+function add(a: number, b: number): number {
+    return a + b;
+}
+
+const arrowAdd = (a: number, b: number) => a+b;
+
+console.log(add(3, 3));
+console.log(arrowAdd(4, 4));
+
+const evenNumbers: number[] = numbers.filter((number: number): boolean => number % 2 === 0);
+const squareRootNumbers: number[] = numbers.map((number: number): number => number * 2);
+
+console.log(evenNumbers)
+console.log(squareRootNumbers)
